@@ -1,3 +1,4 @@
+![oxsearch](https://github.com/aboozarsaadat/oxsearch/blob/master/image.png?raw=true)
 <b>ox</b>search – Eine leistungsstarke, mehrsprachige Suchmaschine auf Basis von ASP.NET Core
 
 Ich freue mich, mein neuestes Projekt vorstellen zu dürfen: oxsearch. Dabei handelt es sich um eine spezialisierte Suchmaschine, die auf die Indexierung und Verarbeitung von Webinhalten in Deutsch, Englisch und Persisch optimiert ist.
