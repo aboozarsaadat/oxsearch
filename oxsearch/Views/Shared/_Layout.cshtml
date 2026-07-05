@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oxsearch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/preline@2.0.0/dist/preline.min.css">
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200">
+        <nav class="max-w-7xl mx-auto flex items-center justify-between p-4">
+            <a href="/" class="text-2xl font-bold text-indigo-600">oxsearch</a>
+            <div class="flex items-center gap-4">
+                <a href="/submit" class="text-gray-700 hover:text-indigo-600 transition">Website hinzufügen</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow">
+        @RenderBody()
+    </main>
+
+    <footer class="py-4 text-center text-sm text-gray-500 border-t border-gray-200">
+        oxsearch – Eine einfache Suchmaschine
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/preline@2.0.0/dist/preline.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
